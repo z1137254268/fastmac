@@ -1,0 +1,17 @@
+name: mac
+on: 
+  workflow_dispatch:
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    # Uncomment next 3 lines if you want to be able to use SSH in your shell (see README.md for details)
+    #- uses: fastai/workflows/ssh@master
+    #  with:
+    #    ssh_key: ${{ secrets.SSH_KEY }}
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v2
