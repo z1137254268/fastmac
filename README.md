@@ -49,6 +49,8 @@ If you need to access a Linux shell, instead of MacOS, follow all the same steps
 
 `fastmac` (or linux) can be handy if you're out and about but need to safely access one of your servers. You can ssh from your fastmac/linux instance to your servers. First you have to set up a GitHub secret containing the ssh private key needed to connect to your server. To set one up, [click here](../../settings/secrets/new) to create a new secret, name it `SSH_KEY` (it must be that exact name), and paste your private key file (e.g. `~/.ssh/id_rsa`) contents as the value. Save your secret, and then when you connect using the fastmac/linux steps, you'll find that your terminal has your key ready for use.
 
+**NB**: anyone who has access to your GitHub account can access your `SSH_KEY` contents by running this action. Therefore, you should only use a key which is not security sensitive, or at the very least ensure that it is password protected with a strong password.
+
 ## Behind the scenes
 
 `fastmac` is a very thin wrapper around [tmate](https://tmate.io/), so all the features of tmate are available. tmate itself is based on [tmux](https://github.com/tmux/tmux/wiki), so you have all that functionality too. In practice, that means other people can connect to the same ssh session, and you'll all be sharing the same screen! This can be very handy for debugging and support. The integration with Github Actions is provided by [action-tmate](https://github.com/mxschmitt/action-tmate).
