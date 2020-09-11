@@ -2,7 +2,7 @@
 
 > Use a MacOS shell (for free!)
 
-I don't have a Mac, but I often want to test my software on a Mac, or build software for folks using Macs. Rather than shelling out thousands of dollars to buy a Mac, it turns out we can use GitHub Actions to give us access to one for free! Note that this only gives us access to a terminal shell, not a full GUI. Here's how to proceed:
+I don't have a Mac, but I often want to test my software on a Mac, or build software for folks using Macs. Rather than shelling out thousands of dollars to buy a Mac, it turns out we can use GitHub Actions to give us access to one for free! `fastmac` makes this process as simple as possible. Note that this only gives us access to a terminal shell, not a full GUI. Here's how to proceed:
 
 ## Clone template
 
