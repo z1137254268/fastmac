@@ -43,9 +43,8 @@ To close the session, click the red "Cancel workflow" on the right-hand side of 
 
 ## Use a Linux (Ubuntu) shell
 
-If you need to access a Linux shell, instead of MacOS, follow all the same steps as above, except (<a href="../../actions?query=workflow%3Amac">click this link</a>) instead of the one mentioned above. And click "linux" instead of "mac" to access your session.
+If you need to access a Linux shell, instead of MacOS, follow all the same steps as above, except <a href="../../actions?query=workflow%3Amac">click this link</a> instead of the one mentioned above. And click "linux" instead of "mac" to access your session.
 
 ## Using ssh to connect to other servers
 
 fastmac (or linux) can be handy if you're out and about but need to safely access one of your servers. You can ssh from your fastmac/linux instance to your servers, as long as you've set up a GitHub secret containing the ssh private key needed to connect to your server.
-
