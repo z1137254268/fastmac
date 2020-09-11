@@ -4,4 +4,4 @@
 
 It
 
-[actions?query=workflow%3Amac](click here)
+<a href="actions?query=workflow%3Amac">click here</a>
