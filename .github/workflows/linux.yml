@@ -13,4 +13,4 @@ jobs:
     #  with:
     #    ssh_key: ${{ secrets.SSH_KEY }}
     - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v2
+      uses: fastai/workflows/action-tmate@v2
