@@ -8,7 +8,7 @@ I don't have a Mac, but I often want to test my software on a Mac, or build soft
 
 First, [click here](https://github.com/fastai/fastmac/generate) to create a copy of this repo in your account. Type `fastmac` under "repository name" and then click "Create repository from template". After about 10 seconds, you'll see a screen that looks just like the one you're looking at now, except that it'll be in your repo copy.
 
-**NB**: Follow the  rest of the instructions in repo copy you just made, not in this fastai repo.
+**NB**: Follow the  rest of the instructions in repo copy you just made, not in the `fastai/fastmac` repo.
 
 ## Run the `mac` workflow
 
