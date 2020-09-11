@@ -6,4 +6,4 @@ It
 
 <a href="../../actions?query=workflow%3Amac">click here</a>
 
-<img srcset="https://user-images.githubusercontent.com/346999/92965396-91320680-f42a-11ea-9bc3-90682e740343.png 2x">
+<img srcset="https://user-images.githubusercontent.com/346999/92965396-91320680-f42a-11ea-9bc3-90682e740343.png 2x" src="https://user-images.githubusercontent.com/346999/92965396-91320680-f42a-11ea-9bc3-90682e740343.png" />
