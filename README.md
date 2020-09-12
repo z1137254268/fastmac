@@ -2,9 +2,7 @@
 
 > Get a MacOS for Linux shell, for free, in around 2 minutes
 
-I don't have a Mac, but I often want to test my software on a Mac, or build software for folks using Macs. Rather than shelling out thousands of dollars to buy a Mac, it turns out we can use GitHub Actions to give us access to one for free! `fastmac` makes this process as simple as possible. Note that this only gives us access to a terminal shell, not a full GUI. See below for how to get started. Here's a little video that shows all the steps (click it for full size):
-
-<a href="https://files.fast.ai/images/fastmac.png"><img src="https://files.fast.ai/images/fastmac-small.png" /></a>
+I don't have a Mac, but I often want to test my software on a Mac, or build software for folks using Macs. Rather than shelling out thousands of dollars to buy a Mac, it turns out we can use GitHub Actions to give us access to one for free! `fastmac` makes this process as simple as possible. Note that this only gives us access to a terminal shell, not a full GUI. See below for how to get started. [Click here](https://files.fast.ai/images/fastmac.png) for a little video that shows all the steps.
 
 ## Clone template
 
