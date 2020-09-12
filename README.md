@@ -51,6 +51,12 @@ If you need to access a Linux shell, instead of MacOS, follow all the same steps
 
 **NB**: anyone who has access to your GitHub account can access your `SSH_KEY` contents by running this action. Therefore, you should only use a key which is not security sensitive, or at the very least ensure that it is password protected with a strong password.
 
+## Auto-configuration of your sessions
+
+In your `fastmac` repo, edit the `script-{linux,mac}.sh` files to add configuration commands that you want run automatically when you create a new session. These are bash scripts that are run whenever a new session is created.
+
+Furthermore, any files that you add to your repo will be available in your sessions. So you can use this to any any data, scripts, information, etc that you want to have access to in your fastmac/linux sessions.
+
 ## Behind the scenes
 
 `fastmac` is a very thin wrapper around [tmate](https://tmate.io/), so all the features of tmate are available. tmate itself is based on [tmux](https://github.com/tmux/tmux/wiki), so you have all that functionality too. In practice, that means other people can connect to the same ssh session, and you'll all be sharing the same screen! This can be very handy for debugging and support. The integration with Github Actions is provided by [action-tmate](https://github.com/mxschmitt/action-tmate).
