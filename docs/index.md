@@ -4,7 +4,7 @@
 
 I don't have a Mac, but I often want to test my software on a Mac, or build software for folks using Macs. Rather than shelling out thousands of dollars to buy a Mac, it turns out we can use GitHub Actions to give us access to one for free! `fastmac` makes this process as simple as possible. Note that this only gives us access to a terminal shell, not a full GUI. See below for how to get started. Here's a little video that shows all the steps (click it for a full-size version):
 
-<a href="https://files.fast.ai/images/fastmac.png"><img src="https://files.fast.ai/images/fastmac.gif" /></a>
+<a href="https://files.fast.ai/images/fastmac.png"><img src="https://files.fast.ai/images/fastmac-optimize.gif" /></a>
 
 **NB**: Please check the [GitHub Actions Terms of Service](https://docs.github.com/en/github/site-policy/github-additional-product-terms#5-actions-and-packages). Note that your repo needs to be public, otherwise you have a strict monthly limit on how many minutes you can use. Note also that according to the TOS the repo that contains these files needs to be the same one where you're developing the project that you're using it for, and specifically that you are using it for the "*production, testing, deployment, or publication of [that] software project*".
 
